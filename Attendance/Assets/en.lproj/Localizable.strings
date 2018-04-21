@@ -1,0 +1,5 @@
+"error" = "Error";
+"userNameEmpty" = "Enter User Name";
+"passFieldEmpty" = "Enter Password";
+"wrongUNorPass" = "Wrong User Name or Password";
+"networkError" = "Error in your internet connection";

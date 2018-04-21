@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87DD0000208A85BE0077E780 /* FONT in Resources */ = {isa = PBXBuildFile; fileRef = 87DDFFFF208A85BE0077E780 /* FONT */; };
+		1806A597208A969200767DB4 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806A596208A969200767DB4 /* SetupViewController.swift */; };
+		1874C79B208B30E400C0871F /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874C79A208B30E400C0871F /* Authentication.swift */; };
+		1874C79D208B31F900C0871F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874C79C208B31F900C0871F /* User.swift */; };
+		1874C79F208B35B500C0871F /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874C79E208B35B500C0871F /* CalendarViewController.swift */; };
+		18AC96F4208AA1A800496F61 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18AC96F6208AA1A800496F61 /* Localizable.strings */; };
+		18AC96F9208AA3E900496F61 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AC96F8208AA3E900496F61 /* Utility.swift */; };
 		87FC4FF62089D12100D87D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC4FF52089D12100D87D67 /* AppDelegate.swift */; };
-		87FC4FF82089D12100D87D67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC4FF72089D12100D87D67 /* ViewController.swift */; };
+		87FC4FF82089D12100D87D67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC4FF72089D12100D87D67 /* LoginViewController.swift */; };
 		87FC4FFB2089D12100D87D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FC4FF92089D12100D87D67 /* Main.storyboard */; };
 		87FC4FFD2089D12300D87D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FC4FFC2089D12300D87D67 /* Assets.xcassets */; };
 		87FC50002089D12300D87D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FC4FFE2089D12300D87D67 /* LaunchScreen.storyboard */; };
+		916CBB95F04C095BAB77D33C /* Pods_Attendance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60DF7337C5BA462324868DB3 /* Pods_Attendance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87DDFFFF208A85BE0077E780 /* FONT */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FONT; path = ../../ANDROID/ANDROID/FONT/FONT; sourceTree = "<group>"; };
+		1806A596208A969200767DB4 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		1874C79A208B30E400C0871F /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Authentication.swift; path = Attendance/Assets/Authentication.swift; sourceTree = SOURCE_ROOT; };
+		1874C79C208B31F900C0871F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Attendance/Assets/User.swift; sourceTree = SOURCE_ROOT; };
+		1874C79E208B35B500C0871F /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		18AC96F1208AA17900496F61 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18AC96F5208AA1A800496F61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18AC96F7208AA1AA00496F61 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18AC96F8208AA3E900496F61 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Attendance/Assets/Utility.swift; sourceTree = SOURCE_ROOT; };
+		60DF7337C5BA462324868DB3 /* Pods_Attendance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Attendance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630AA096B367E884B453776B /* Pods-Attendance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attendance.release.xcconfig"; path = "Pods/Target Support Files/Pods-Attendance/Pods-Attendance.release.xcconfig"; sourceTree = "<group>"; };
+		70AC37C65A983C0927B60A38 /* Pods-Attendance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attendance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Attendance/Pods-Attendance.debug.xcconfig"; sourceTree = "<group>"; };
 		87FC4FF22089D12100D87D67 /* Attendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FC4FF52089D12100D87D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87FC4FF72089D12100D87D67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87FC4FF72089D12100D87D67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		87FC4FFA2089D12100D87D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87FC4FFC2089D12300D87D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87FC4FFF2089D12300D87D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +47,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916CBB95F04C095BAB77D33C /* Pods_Attendance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18AC96F0208AA11600496F61 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				87FC4FFC2089D12300D87D67 /* Assets.xcassets */,
+				87FC50012089D12300D87D67 /* Info.plist */,
+				18AC96F6208AA1A800496F61 /* Localizable.strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3FA4E07E05F7A55BE70E7609 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70AC37C65A983C0927B60A38 /* Pods-Attendance.debug.xcconfig */,
+				630AA096B367E884B453776B /* Pods-Attendance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64225EAEF3FCF47E1E247E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60DF7337C5BA462324868DB3 /* Pods_Attendance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87FC4FE92089D12100D87D67 = {
 			isa = PBXGroup;
 			children = (
 				87FC4FF42089D12100D87D67 /* Attendance */,
 				87FC4FF32089D12100D87D67 /* Products */,
+				3FA4E07E05F7A55BE70E7609 /* Pods */,
+				64225EAEF3FCF47E1E247E56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +102,10 @@
 		87FC4FF42089D12100D87D67 /* Attendance */ = {
 			isa = PBXGroup;
 			children = (
-				87FC4FF52089D12100D87D67 /* AppDelegate.swift */,
+				18AC96F0208AA11600496F61 /* Assets */,
 				87FC50092089D16600D87D67 /* Controller */,
 				87FC50082089D16000D87D67 /* View */,
 				87FC50072089D15900D87D67 /* Model */,
-				87FC4FFC2089D12300D87D67 /* Assets.xcassets */,
-				87DDFFFF208A85BE0077E780 /* FONT */,
-				87FC50012089D12300D87D67 /* Info.plist */,
 			);
 			path = Attendance;
 			sourceTree = "<group>";
@@ -70,6 +113,9 @@
 		87FC50072089D15900D87D67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18AC96F8208AA3E900496F61 /* Utility.swift */,
+				1874C79A208B30E400C0871F /* Authentication.swift */,
+				1874C79C208B31F900C0871F /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -86,7 +132,10 @@
 		87FC50092089D16600D87D67 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				87FC4FF72089D12100D87D67 /* ViewController.swift */,
+				87FC4FF52089D12100D87D67 /* AppDelegate.swift */,
+				87FC4FF72089D12100D87D67 /* LoginViewController.swift */,
+				1806A596208A969200767DB4 /* SetupViewController.swift */,
+				1874C79E208B35B500C0871F /* CalendarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87FC50042089D12300D87D67 /* Build configuration list for PBXNativeTarget "Attendance" */;
 			buildPhases = (
+				125EAC9E4280CBA9684C9589 /* [CP] Check Pods Manifest.lock */,
 				87FC4FEE2089D12100D87D67 /* Sources */,
 				87FC4FEF2089D12100D87D67 /* Frameworks */,
 				87FC4FF02089D12100D87D67 /* Resources */,
+				AEFF3F1A4FE1F02EC57D13CC /* [CP] Embed Pods Frameworks */,
+				0A92634EB95611B8101412CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +186,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 87FC4FE92089D12100D87D67;
 			productRefGroup = 87FC4FF32089D12100D87D67 /* Products */;
@@ -151,20 +204,89 @@
 			buildActionMask = 2147483647;
 			files = (
 				87FC50002089D12300D87D67 /* LaunchScreen.storyboard in Resources */,
+				18AC96F4208AA1A800496F61 /* Localizable.strings in Resources */,
 				87FC4FFD2089D12300D87D67 /* Assets.xcassets in Resources */,
 				87FC4FFB2089D12100D87D67 /* Main.storyboard in Resources */,
-				87DD0000208A85BE0077E780 /* FONT in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A92634EB95611B8101412CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Attendance/Pods-Attendance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		125EAC9E4280CBA9684C9589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Attendance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFF3F1A4FE1F02EC57D13CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Attendance/Pods-Attendance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-Synchronous/Alamofire_Synchronous.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Neon/Neon.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_Synchronous.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Neon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Attendance/Pods-Attendance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87FC4FEE2089D12100D87D67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87FC4FF82089D12100D87D67 /* ViewController.swift in Sources */,
+				18AC96F9208AA3E900496F61 /* Utility.swift in Sources */,
+				87FC4FF82089D12100D87D67 /* LoginViewController.swift in Sources */,
+				1874C79D208B31F900C0871F /* User.swift in Sources */,
+				1806A597208A969200767DB4 /* SetupViewController.swift in Sources */,
+				1874C79B208B30E400C0871F /* Authentication.swift in Sources */,
+				1874C79F208B35B500C0871F /* CalendarViewController.swift in Sources */,
 				87FC4FF62089D12100D87D67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +294,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		18AC96F6208AA1A800496F61 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AC96F5208AA1A800496F61 /* en */,
+				18AC96F7208AA1AA00496F61 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		87FC4FF92089D12100D87D67 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -184,6 +315,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				87FC4FFF2089D12300D87D67 /* Base */,
+				18AC96F1208AA17900496F61 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -195,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -242,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -255,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -296,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -306,11 +440,12 @@
 		};
 		87FC50052089D12300D87D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AC37C65A983C0927B60A38 /* Pods-Attendance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VED56739Y2;
-				INFOPLIST_FILE = Attendance/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Attendance/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Icon-Creations.Attendance";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -321,11 +456,12 @@
 		};
 		87FC50062089D12300D87D67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630AA096B367E884B453776B /* Pods-Attendance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VED56739Y2;
-				INFOPLIST_FILE = Attendance/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Attendance/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Icon-Creations.Attendance";
 				PRODUCT_NAME = "$(TARGET_NAME)";

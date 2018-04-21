@@ -1,12 +1,5 @@
-//
-//  AppDelegate.swift
-//  Attendance
-//
-//  Created by Mohamed Goda on 4/20/18.
-//  Copyright © 2018 Mohamed Goda. All rights reserved.
-//
-
 import UIKit
+import IQKeyboardManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +9,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        IQKeyboardManager.shared().isEnabled = true
+        //print("ID : " + (UserDefaults.standard.value(forKey: "employeeId") as! String))
+        nav()
         return true
     }
 
@@ -41,6 +37,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func nav(){
+        if UserDefaults.standard.value(forKey: "userID") != nil{
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "CalendarVC")
+                as! CalendarViewController
+            let navigationController = UINavigationController(rootViewController: initialViewController)
+            window?.rootViewController = navigationController
+            navigationController.isNavigationBarHidden = true
+        }else{
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "SetupVC")
+                as! SetupViewController
+            let navigationController = UINavigationController(rootViewController: initialViewController)
+            window?.rootViewController = navigationController
+            navigationController.isNavigationBarHidden = true
+        }
+    }
+    
 }
 

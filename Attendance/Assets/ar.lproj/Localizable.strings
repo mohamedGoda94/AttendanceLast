@@ -1,0 +1,6 @@
+"error" = "خطأ";
+"userNameEmpty" = "أدخل اسم المستخدم";
+"passFieldEmpty" = "أدخل كلمة المرور";
+"wrongUNorPass" = "خطأ باسم المستخدم او كلمة المرور";
+"networkError" = "خطأ في اتصالك بالأنترنت";
+
